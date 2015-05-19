@@ -1,8 +1,7 @@
 
 
 <a href="?action=Add">Добавить статью</a>
-<p>test commit</p>
-<p>test commit again</p>
+
 <?php
 
 mb_internal_encoding("UTF-8");
