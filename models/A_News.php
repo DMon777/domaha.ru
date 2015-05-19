@@ -20,6 +20,12 @@
          return $item[0];
      }
 
+     public function add($title,$article){
+         $sql = "INSERT INTO ".$this->table." (`title`,`article`) VALUES ('$title','$article') ";
+         $db = new DB();
+         mysql_query($sql);
+     }
+
 
 
  }
