@@ -1,6 +1,7 @@
 
 
 <a href="?action=Add">Добавить статью</a>
+<p>test commit</p>
 <?php
 
 mb_internal_encoding("UTF-8");
@@ -14,4 +15,9 @@ foreach($articles as $key => $article):?>
 <?php
 endforeach;
 ?>
+
+
+
+
+
 
