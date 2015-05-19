@@ -8,7 +8,7 @@ class DB {
         mysql_connect("localhost","root","","articles_base");
         mysql_select_db("articles_base");
         mysql_query("SET NAMES 'UTF8'");
-        mysql_query("SET CHARACTER SET 'UTF8'");
+
     }
 
     public function query($sql){

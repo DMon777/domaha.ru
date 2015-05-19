@@ -10,5 +10,4 @@ $method = "action".$action;
 $contr = new $controller();
 $contr->$method();
 
-
 ?>
